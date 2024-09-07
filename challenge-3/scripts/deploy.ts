@@ -59,7 +59,7 @@ function jettonMinterInitData(
 async function deployContract() {
     const codeCell = Cell.fromBoc(Buffer.from(hex,"hex"))[0];
 
-    const ownerAddress = Address.parse("kQCj2gVRdFS0qOZnUFXdMliONgSANYXfQUDMsjd8fbTW-aAI");
+    const ownerAddress = Address.parse("0QBxDLRJIwdGVnTlkX5Yt2Zn31FTaqNDEPjeLu-i6M4bXSF8");
     const metadataStr = "EnterYourOwnJetton2"
     const dataCell = jettonMinterInitData(ownerAddress,metadataStr);   
 
